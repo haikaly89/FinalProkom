@@ -151,7 +151,7 @@ def thisFood():
         else:
             print(f"{food} tidak terdaftar dalam data, Anda bisa melakukan pengecekan manual")
         print('Coba lagi [Y/N]? ')
-        back = input("Apakah anda ingin cek BMI lagi ? (y/n) ")
+        back = input("Apakah anda ingin cek lagi ? (y/n) ")
         if back == "n":
             print("="*35, "\n")
             print('Program telah berakhir, anda akan kembali ke menu utama')

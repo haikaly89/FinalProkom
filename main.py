@@ -1,7 +1,6 @@
 import time
 import os
 import menu 
-
 import dataresep
 import bmi
 import manualcheck

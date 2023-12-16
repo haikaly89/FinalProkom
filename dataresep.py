@@ -4,12 +4,19 @@ import time
 
 #===========================================================================================
 def listresep(): 
-    print ("="*35)
-    print ( "Pilih resep yang ingin ada lihat\n")
-    print ("1. Smoothie Buah-buahan Segar") 
-    print ("2. Wrap Sayuran dengan Daging Ayam Panggang") 
-    print ("99. Keluar")  
-    print ("="*35, "\n")
+    border_top = "╔" + "═"*45 + "╗"
+    border_bottom = "╚" + "═"*45 + "╝"
+    horizontal_line = "║" + " "*45 + "║"
+
+    print(border_top)
+    print(horizontal_line)
+    print("║{:^45}║".format("Pilih resep yang ingin dilihat"))
+    print(horizontal_line)
+    print("║{:<45}║".format("1. Smoothie Buah-buahan Segar"))
+    print("║{:<45}║".format("2. Wrap Sayuran dengan Daging Ayam Panggang"))
+    print("║{:<45}║".format("99. Keluar"))
+    print(horizontal_line)
+    print(border_bottom + "\n")
 
 
 #===========================================================================================
