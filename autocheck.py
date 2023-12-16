@@ -150,7 +150,6 @@ def thisFood():
                 print(f"{food} adalah makanan tidak sehat")
         else:
             print(f"{food} tidak terdaftar dalam data, Anda bisa melakukan pengecekan manual")
-        print('Coba lagi [Y/N]? ')
         back = input("Apakah anda ingin cek lagi ? (y/n) ")
         if back == "n":
             print("="*35, "\n")
